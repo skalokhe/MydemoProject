@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'your-branch-name', url: 'https://your-repo-url.git'
+                git branch: 'your-branch-name', url: 'https://github.com/skalokhe/MydemoProject.git'
             }
         }
         stage('Run Docker Compose') {
